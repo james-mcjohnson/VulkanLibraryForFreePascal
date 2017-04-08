@@ -1,0 +1,2 @@
+  PInteger(@VK_SHADER_STAGE_ALL)^ := $7FFFFFFF;
+

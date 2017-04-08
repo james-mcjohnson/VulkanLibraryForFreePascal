@@ -1,0 +1,29 @@
+object frmMain: TfrmMain
+  Left = 1827
+  Height = 105
+  Top = 1068
+  Width = 301
+  Caption = 'Main GUI'
+  ClientHeight = 105
+  ClientWidth = 301
+  Position = poMainFormCenter
+  LCLVersion = '1.7'
+  object Button1: TButton
+    Left = 8
+    Height = 40
+    Top = 8
+    Width = 288
+    Caption = 'Create Vulkan pas from vk.xml'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 39
+    Top = 56
+    Width = 288
+    Caption = 'Test Vulkan'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+end
